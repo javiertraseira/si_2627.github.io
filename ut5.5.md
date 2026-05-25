@@ -414,13 +414,32 @@ nmap -p 80,443,53,25,587 localhost
 
 ### Comando netstat
 
-El comando **netstat** es otro comando de red que se utiliza para identificar todas las conexiones *TCP* y *UDP* abiertas en una máquina. Además de esto, nos permite conocer la información siguiente:
+**netstat** es otro comando de red, ya algo obsoleto, que se utiliza para identificar todas las conexiones *TCP* y *UDP* abiertas en una máquina. Además de esto, nos permite conocer la información siguiente:
 
 -   Tablas de rutas para conocer nuestras interfaces de red y las salidas de las mismas.
 -   Estadísticas Ethernet que nos muestran los paquetes enviados, los recibidos y los posibles errores.
 -   Saber el id del proceso que está siendo utilizado por la conexión.
 
 ![](media/6929af58c1dd9d1166b2c73da2a3251f.png)
+
+### Comando ss
+
+El comando **ss** (*Socket Statistics*) es una herramienta moderna de monitorización de red en Linux que sustituye al antiguo comando netstat. Se utiliza para mostrar información sobre conexiones TCP y UDP, puertos abiertos y sockets del sistema de forma más rápida y eficiente.
+Además de esto, nos permite conocer la información siguiente:
+
+- Conexiones de red activas TCP y UDP.
+- Puertos abiertos y servicios en escucha.
+- Procesos y PID asociados a cada conexión.
+- Estados de las conexiones TCP (LISTEN, ESTABLISHED, TIME_WAIT, etc.).
+- Estadísticas y detalles avanzados de sockets.
+
+Los *parámetros* que permite:
+
+    -t  mostrar conexiones TCP
+    -u mostrar conexiones UDP
+    -l  mostrar únicamente puertos en escucha (LISTEN)
+    -a  mostrar todas las conexiones y puertos
+    -n  no resolver nombres ni puertos
 
 ### Comando traceroute
 
