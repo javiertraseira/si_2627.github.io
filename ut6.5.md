@@ -288,7 +288,7 @@ Conceptos importantes de *systemd*:
 
 - **Daemon**: Es el proceso principal de systemdque se ejecuta en segundo plano como PID 1. Primer proceso que se inicia al arrancar el sistema y último detenerse.
 
-El comando *systemctl* admite los siguientes parámetrosde uso para actuar sobre serviciosespecíficos:
+El comando *systemctl* admite los siguientes parámetrosde uso para actuar sobre servicios específicos:
 
 | **Acción**                                                               | **systemd**               |
 |--------------------------------------------------------------------------|---------------------------|
