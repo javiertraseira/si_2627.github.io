@@ -275,17 +275,39 @@ Los sufijos disponibles son:
 ```tip
 En **Linux** el comando **systemctl** se utiliza para controlar y administrar **servicios o demonios** en el sistema, durante el arranque o durante la sesión actual.
 ```
-El comando systemctl admite los siguientes **parámetros** de uso:
+Conceptos importantes de *systemd*:
+
+- **Unidad** (Unit): pieza fundamental con la que trabaja systemd. Una unidad es una configuración que describe cómo systemddebe gestionar un recurso específico. Los tipos de unidades comunes incluyen:
+    - .service: servicios del sistema (servidor web, base de datos, SSH, etc.).
+    - .socket: sockets de red o FIFO para activación de servicios bajo demanda.
+    - .device: dispositivos de hardware gestionados por el kernel.
+    - .mount: puntos de montaje de sistemas de archivos.
+    - .automount: puntos de montaje automáticos.
+    - .target: grupos de unidades que actúan como ptos. de sincronización (runlevels).
+    - .timer: para programar la ejecución de unidades en momentos específicos.
+
+- **Daemon**: Es el proceso principal de systemdque se ejecuta en segundo plano como PID 1. Primer proceso que se inicia al arrancar el sistema y último detenerse.
+
+El comando *systemctl* admite los siguientes parámetrosde uso para actuar sobre serviciosespecíficos:
 
 | **Acción**                                                               | **systemd**               |
 |--------------------------------------------------------------------------|---------------------------|
-| **Listar** todas las unidades de servicios y sus estados                 | systemctl list-unit-files |
 | **Arrancar** un servicio                                                 | systemctl **start** foo   |
 | **Detener** un servicio                                                  | systemctl **stop** foo    |
 | **Reiniciar** un servicio                                                | systemctl **restart** foo |
 | Mostrar **estado** de un servicio                                        | systemctl **status** foo  |
 | **Activar** un servicio para que sea ejecutado durante el arranque       | systemctl enable foo      |
 | **Desactivar** un servicio para que no sea ejecutado durante el arranque | systemctl disable foo     |
+
+Con el comando *systemctl* también podemos listar de distintas formas las unidades disponibles:
+
+| **Acción**                                                               | **systemd**                          |
+|--------------------------------------------------------------------------|--------------------------------------|
+| **Listar** todas las unidades cargadas y su estado en memoria            | systemctl list-units                 |
+| **Listar** todas las unidades de servicios y sus estados                 | systemctl list-unit-files            |
+| **Listar** las unidades por tipos                                        | systemctl list-units --type=service  |
+| **Listar** las unidades por estado                                       | systemctl list-units --state=running |
+
 
 ### Estado servicios
 
