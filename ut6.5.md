@@ -289,14 +289,27 @@ El comando systemctl admite los siguientes **parámetros** de uso:
 
 ### Estado servicios
 
-El **estado** de los diferentes servicios según systemctl list-unit-files:
+El **estado** de los diferentes servicios según `systemctl list-unit-files`:
+
+![](media/services_systemctl.jpg)
 
 -   **Enabled**: El servicio está habilitado, se está usando. También indica que se iniciará de forma automática cuando iniciemos el equipo.
 -   **Disabled**: El servicio está deshabilitado en este momento. No se inicia de forma automática al reinicio.
 -   **Masked**: El servicio está completamente deshabilitado y no se puede iniciar de ningún modo sin previamente desenmascararlo.
 -   **Static**: Servicios que únicamente se usarán en el caso que otro servicio o unidad lo precise. Estos servicios pueden estar activos o inactivos, pero siempre están disponibles para cuando se necesite usarlos. Estos servicios no se pueden activar ni desactivar, pero se pueden enmascarar.
 
-![](media/e1db7f1f304bbd2c65d80f4870928d5b.png)
+Las columnas mostradas usando `systemctl-list-units`:
+
+![](media/services_systemctl_list.jpg)
+
+| Columna     | Significado                                       |
+| ----------- | ------------------------------------------------- |
+| UNIT        | Nombre del servicio o unidad                      |
+| LOAD        | Si la configuración se cargó correctamente        |
+| ACTIVE      | Estado general (`active`, `inactive`, `failed`)   |
+| SUB         | Estado detallado (`running`, `dead`, `listening`) |
+| DESCRIPTION | Descripción del servicio                          |
+
 
 ## Log del sistema
 
