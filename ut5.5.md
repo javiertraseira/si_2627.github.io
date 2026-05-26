@@ -196,11 +196,11 @@ El comando **NETSH** ofrece multitud de opciones a la hora de obtener informaci�
 | Verificar comunicación entre equipos                                                 | PING        | `PING 192.168.1.21`                                                                 |
 | Obtener direcciones MAC                                                              | GETMAC      | `GETMAC`                                                                            |
 | Tablas ARP del equipo                                                                | ARP         | `ARP –A –N 192.168.1.5`                                                             |
-| Obtener valores de configuración de interfaces de red y reasignar valores DHCP o DNS | IPCONFIG    | `IPCONFIG /RENEW \* `                                                               |
+| Obtener valores de configuración de interfaces de red y reasignar valores DHCP o DNS | IPCONFIG    | `IPCONFIG /RENEW *`                                                               |
 | Conocer si el DNS está resolviendo correctamente los nombres y las IPs               | NSLOOKUP    | `NSLOOKUP [www.google.com](http://www.google.com/)`                                 |
 | Mostrar estadísticas de la red y ver diagnósticos y análisis.                        | NETSTAT     | `NETSTAT`                                                                           |
 | Determina la ruta a un destino especificado                                          | TRACERT     | `TRACERT [www.google.com](http://www.google.com/)`                                  |
-|   Herramienta de **configuración avanzada** de red en línea                          |   NETSH     | NETSH interface ip show  NETSH interface ip set address name="Ethernet" source=dhcp |
+| Herramienta de **configuración avanzada** de red en línea                            |   NETSH     | `NETSH interface ip show`  `NETSH interface ip set address name="Ethernet" source=dhcp` |
 
 
 ## Configuración y comandos de red en Linux
@@ -478,10 +478,10 @@ Comandos de **gestión de redes** básicos en Linux:
 |----------------|--------------------------------------------------------------------|-----------------------------------------------------|
 | **hostname**   | Muestra información del nombre de la máquina                       | `hostname`                                          |
 | **ifconfig**   | Muestra información y configura las interfaces de red del sistema. | `ifconfig enp0s3 192.168.4.2`                       |
-| **netplan**    | El gestor de redes en Ubuntu (editar fichero yaml)                 | sudo netplan apply                                  |
-| **ping**       | Verificar estado de la conexión con un host concreto.              | ping [www.linux.org](http://www.linux.org/)         |
-| **dig**        | Verificar la resolución de DNS                                     | dig linux.org                                       |
-| **netplan**    | Para aplicar configuraciones de red en el equipo.                  | netplan apply                                       |
-| **nslookup**   | Herramienta para verificar la resolución dns del equipo.           | nslookup educamadrid.org                            |
-| **netstat/ss** | Identificar conexiones abiertas con el equipo.                     | netstat -e                                          |
-| **traceroute** | Mostrar camino que recorre un paquete al destino.                  | traceroute [www.google.com](http://www.google.com/) |
+| **netplan**    | El gestor de redes en Ubuntu (editar fichero yaml)                 | `sudo netplan apply`                                |
+| **ping**       | Verificar estado de la conexión con un host concreto.              | `ping www.linux.org`                                |
+| **dig**        | Verificar la resolución de DNS                                     | `dig linux.org `                                    |
+| **netplan**    | Para aplicar configuraciones de red en el equipo.                  | `netplan apply`                                     |
+| **nslookup**   | Herramienta para verificar la resolución dns del equipo.           | `nslookup educamadrid.org`                          |
+| **netstat/ss** | Identificar conexiones abiertas con el equipo.                     | `netstat -e`                                        |
+| **traceroute** | Mostrar camino que recorre un paquete al destino.                  | `traceroute www.google.com`                         |
