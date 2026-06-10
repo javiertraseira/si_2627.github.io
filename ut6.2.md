@@ -464,7 +464,7 @@ El comando **find** en Linux se usa para buscar archivos y directorios en el sis
 
 Su sintaxis es la siguiente:
 
-    find [ruta] [opciones] [acción]
+    find [ruta] [parámetros] [acción]
 
 Parámetros:
 - ruta → Directorio donde buscar (. para la actual, / para todo el sistema, etc.).
@@ -476,23 +476,65 @@ Buscar archivos por nombre en un directorio específico:
 
     find /home/user -name "documento.txt"
     
-Buscar archivos con extensión .log en cualquier subdirectorio:
+Buscar archivos con extensión *.log* en cualquier subdirectorio:
 
     find /var/log -name "*.log"
-    
-Se pueden hacer combinaciones interesantes con el comando find:
+
+Los parámetros más utilizados para este comando son los siguientes:
+
+| Parámetro   | Función                           | Ejemplo                               |
+| ----------- | --------------------------------- | ------------------------------------- |
+| `-name`     | Buscar por nombre                 | `find . -name "*.txt"`                |
+| `-type f`   | Buscar solo ficheros              | `find . -type f`                      |
+| `-type d`   | Buscar solo directorios           | `find . -type d`                      |
+| `-size`     | Buscar por tamaño                 | `find . -size +1000c`                 |
+| `-user`     | Buscar por propietario            | `find . -user juan`                   |
+| `-perm`     | Buscar por permisos               | `find . -perm 644`                    |
+| `-mtime`    | Buscar por fecha de modificación  | `find . -mtime -7`                    |
+| `-maxdepth` | Limitar profundidad               | `find . -maxdepth 1`                  |
+| `-exec`     | Ejecutar comando sobre resultados | `find . -name "*.log" -exec rm {} \;` |
+| `-delete`   | Eliminar resultados encontrados   | `find . -name "*.tmp" -delete`        |
+
+
+Se pueden hacer combinaciones interesantes con el comando **find**:
 
 Buscar y eliminar archivos temporales de más de 30 días:
 
     find /tmp -type f -mtime +30 -delete
     
-Buscar archivos de más de 100 MB en todo el sistema:
+Buscar archivos de **más** de 100 MB en todo el sistema:
 
     find / -type f -size +100M
+
+Buscar archivos de **menos** de 1Kb en mi carpeta home:
+
+    find /home/javi -type f -size -1K
+
+Buscar archivos usando metacaracteres:
+
+    find . -type f -name "archivo?.txt"
     
 Buscar archivos vacíos:
 
     find /var/log -type f -empty
+
+El formato con el comando **-exec** es el siguiente:
+
+    find . -name "*.txt" -exec comando {} \;
+
+    - -exec: indica que se ejecutará un comando sobre cada resultado encontrado.
+    - {}: se sustituye por el nombre del archivo encontrado.
+    - \;: marca el final del comando a ejecutar.
+
+Combinaciones utilizando el parámetro **-exec** y {}:
+
+Buscar archivos modificados hace más de 30 días y comprimirlos:
+
+    find /datos -type f -mtime +30 -exec gzip {} \;
+
+Buscar archivos .bak y eliminarlos:
+
+    find . -type f -name "*.bak" -exec rm {} \;
 
 
 ## Gestión de paquetes de software
