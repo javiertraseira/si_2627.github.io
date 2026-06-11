@@ -121,7 +121,9 @@ Parámetros:
     -G Especifica los grupos secundarios del usuario
     -uid Especifica el identificador de usuario para el usuario
 
-💡 Después de crear un usuario con useradd conviene siempre recordar que hay que asignarle a continuación contraseña con el comando **passwd.**
+> 💡 Después de crear un usuario con useradd conviene siempre recordar que hay que asignarle a continuación contraseña con el comando **passwd.**
+
+> ⚠️ Los nombres de los usuarios se escriben siempre en minúsculas.
 
 ```tip
 Para **agregar** grupos se utiliza **groupadd** 
