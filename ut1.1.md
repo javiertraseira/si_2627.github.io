@@ -229,18 +229,6 @@ Ejemplos:
 - El control automático de una central eléctrica.
 - La supervisión de una línea de montaje en una fábrica de automóviles.
 
-
-### Sistemas de apoyo en toma de decisiones
-
-Un Sistema informático de apoyo a la toma de decisiones, también conocido como Sistema de soporte a la decisión o **DSS** (Decision Support System), básicamente es un sistema basado en computadoras diseñado con el propósito de ser usado por una gerencia o gerencia de área para ayudarlos en el proceso de tomar una decisión para resolver problemas y con ello poder diagramar las directrices para seleccionar la mejor opción o predecir los futuros escenarios para afrontar nuevos desafíos.
-
-Ejemplos:
-- Un sistema que analiza datos de ventas y recomienda qué productos promocionar.
-- Un software que simula diferentes escenarios de inversión para elegir la más rentable.
-
-
-![](media/dss.png)
-
 ### Sistemas de colaboración empresarial
 
 Los sistemas **ERP** (Enterprise Resource Planning) son uno de los más claros ejemplos de sistema informático. Los sistemas ERP, también conocidos como Sistemas de colaboración empresarial, son el tipo de sistema informático más utilizado por empresas alrededor del mundo, ya que les permiten a las compañías a gestionar la gran cantidad de información que circula dentro de la misma.
@@ -251,6 +239,26 @@ Ejemplos:
 
 
 ![](media/erp_icon.png)
+
+### Sistemas CRM
+
+Los CRM (Customer Relationship Management) o sistemas de Gestión de Relaciones con Clientes permiten centralizar y gestionar la información relacionada con clientes actuales y potenciales.
+
+Ejemplos:
+- Ventas.
+- Marketing.
+- Atención al cliente.
+
+### Sistemas de apoyo en toma de decisiones
+
+Un Sistema informático de apoyo a la toma de decisiones, también conocido como Sistema de soporte a la decisión o **DSS** (Decision Support System), básicamente es un sistema basado en computadoras diseñado con el propósito de ser usado por una gerencia o gerencia de área para ayudarlos en el proceso de tomar una decisión para resolver problemas y con ello poder diagramar las directrices para seleccionar la mejor opción o predecir los futuros escenarios para afrontar nuevos desafíos.
+
+Ejemplos:
+- Un sistema que analiza datos de ventas y recomienda qué productos promocionar.
+- Un software que simula diferentes escenarios de inversión para elegir la más rentable.
+
+![](media/dss.png)
+
 
 ## Evolución histórica del hardware
 
