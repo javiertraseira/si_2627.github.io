@@ -8,9 +8,13 @@ Según el Diccionario de la Real Academia Española se define a la **informátic
 Conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información por medio de dispositivos digitales, denominados ordenadores o computadoras.
 ```
 
+Otra definición más completa sería el conjunto de conocimientos científicos y técnicos relacionados con la adquisición, representación, almacenamiento, procesamiento, transmisión y protección de la información mediante sistemas informáticos.
+
+
 Su aparición como ciencia se debe a la presentación del primer ordenador en el año 1936 denominado **Z1** y usado como arma de cálculo durante la 2ª Guerra Mundial.
 
-El objeto de estudio de la Informática es muy amplio:
+El objeto de estudio de la Informática es muy amplio y puede analizarse desde dos grandes perspectivas:
+
 
 -   **Aspecto Físico** (Diseño, Arquitectura, Fabricación, Componentes)
 
@@ -21,35 +25,48 @@ El objeto de estudio de la Informática es muy amplio:
 
 Actualmente es difícil concebir un área que no use el apoyo de la informática. Existen ramas de la informática dedicada a nuevos campos como la Inteligencia Artificial, Ingeniería, Cine, Música, Videojuegos, Realidad Virtual y Robótica, en desarrollo gracias al apoyo de varias ciencias.
 
-![campos_informatica](media/campos_informatica.png)
+### Campos de Ciencias de la Computación
 
-Campos fundamentales de las **ciencias de la computación**:
+![campos_informatica](media/campos_informatica.png)
 
 - **Fundamentos matemáticos:**
    - **Criptografía**. Consta de algoritmos para proteger datos privados, incluyendo el cifrado.
-
    - **Teoría de grafos** Recursos elementales para almacenamiento de datos y algoritmos de búsqueda.
-
-<img src="/media/5bb71889b700a5614a66045b693c606e.jpg" style="zoom:50%;" /> <img src="media/fc181a3d3112959502356fddaeabe52e.jpg" style="zoom: 67%;" />
+   
+   <img src="/media/5bb71889b700a5614a66045b693c606e.jpg" style="zoom:50%;" /> <img src="media/fc181a3d3112959502356fddaeabe52e.jpg" style="zoom: 67%;" />
 
 
 - **Bases de datos:**
 
-    - **Minería de datos y big data**.
-
-      ![big_data](media/big_data.jpg)
-
+   - **Minería de datos y big data**.
    - **Estudio de algoritmos** para buscar y procesar información en documentos y bases de datos; adquisición de información.
 
-      ![](media/441cfe23c3f7361a9d65780a3ab41931.png)
+    ![big_data](media/big_data.jpg)
 
 - **Algoritmos y estructuras de datos:**
   
     - Análisis de algoritmos. Procesos formales usados para los cómputos,  y eficiencia de estos procesos.
-      
     - Estructuras de datos. Organización y manipulación de los datos.
 
+   ![](media/441cfe23c3f7361a9d65780a3ab41931.png)
+
     
+- **Ingeniería del software:**
+
+    - Estudio del diseño de software
+    - Análisis del software, soporte y su mantenimiento
+    - planificación y testeo.
+    - Interacción Humano-Computadora (HCI)
+    
+   ![](media/software_engineering.png)
+
+- **Redes y Seguridad Informática:**
+
+    - Arquitectura de redes
+    - Seguridad informática
+    - Cloud Computing
+
+
 - **Sistemas de IA:**
 
     - La implementación y estudio de sistemas que exhiben ya sea por una inteligencia autónoma o comportamiento inspirado por las características de los seres vivos.
@@ -72,9 +89,7 @@ Campos fundamentales de las **ciencias de la computación**:
     - Algoritmos para generar sintéticamente imágenes fotorrealistas (Raytracing)
     - Reconocimiento y procesamiento de imágenes.
     - Técnicas de fabricación y materiales.
-    
-
-![](media/ff7522a9b0e06950a524d6ca10b6627b.jpg)
+    ![](media/ff7522a9b0e06950a524d6ca10b6627b.jpg)
 
 - **Computación científica:**
 
@@ -86,21 +101,13 @@ Campos fundamentales de las **ciencias de la computación**:
    ![](media/3a7dde2b6c5d4b4823a060c22adeb388.jpg)
 
 
-- **Ingeniería del software:**
+### Disciplina transversal
 
-    - Estudio del diseño de software
-    - Análisis del software, soporte y su mantenimiento
-    - planificación y testeo.
-    - Interacción Humano-Computadora (HCI)
-    
-   ![](media/software_engineering.png)
+La informática es una disciplina transversal. Estas ramas no son compartimentos aislados.
 
-- **Redes y Seguridad Informática:**
+Por ejemplo, para un vehículo autónomo, un servicio como Netflix o una IA generativa que combinan:
 
-    - Arquitectura de redes
-    - Seguridad informática
-    - Cloud Computing
-
+![](media/combinacion_ramas.png)
 
 ## El ordenador
 
