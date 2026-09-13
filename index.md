@@ -2,7 +2,7 @@
 
 ## Guía didáctica
 
-![](pdf/Guía_didáctica_SI_2627.pdf)
+[Guía didáctica](pdf/Guía_didáctica_SI_2627.pdf)
 
 ----
 
