@@ -39,7 +39,7 @@ Existen diferentes tipos de lenguajes de programación:
 - **Lenguajes de bajo nivel**. Son los más cercanos al hardware del ordenador. Dentro de este tipo podemos distinguir:
     - Lenguaje máquina: Comprensible directamente por la máquina (0’s y 1’s)
     - Lenguaje ensamblador: Lenguaje cercano a la máquina, pero basado en instrucciones muy simples.
-- **Lenguajes de alto nivel**: Lenguajes independientes del hardware,mucho más comprensibles por el ser humano y que necesitan compilarse para poder traducirse a lenguaje máquina
+- **Lenguajes de alto nivel**: Lenguajes independientes del hardware, mucho más comprensibles por el ser humano y que necesitan compilarse para poder traducirse a lenguaje máquina
 
 
 
@@ -271,7 +271,7 @@ Tipos de licencias de software propietario:
 
 - **Licencias OEM**: se trata de un tipo de licencia que supedita su venta a que forme parte de un equipo nuevo, estando prohibido venderlo si no es bajo esta condición.
     
-- **Licencias Retail**: son las versiones a la venta ‘normal’ de software a través de cualquier canal. En este caso, el programa es de la entera propiedad del usuario, pudiendo éste cederlo libremente a terceros o venderlo. Estas licencias permiten utilizar el programa en otros equipos siempre que no se ejecuten ambos a la vez.
+- **Licencias Retail**: son licencias adquiridas de forma independiente a través de canales comerciales habituales. El usuario adquiere un derecho de uso del software, pero no la propiedad intelectual del programa. Dependiendo de las condiciones de la licencia, puede permitirse trasladarla a otro equipo o transferirla a otro usuario.
     
 - **Licencias por volumen (VLM)**: es un tipo de licencia de software destinado a grandes usuarios (empresas), normalmente bajo unas condiciones similares a las de las licencias OEM, aunque sin estar supeditadas a equipos nuevos.
     
