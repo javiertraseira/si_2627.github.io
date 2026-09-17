@@ -64,7 +64,7 @@ Este software se divide en:
 -   BIOS/UEFI
 -   Hipervisores de Máquinas Virtuales
 -   Gestores de arranque
--   Bibliotecas, APIs y otros componentesdel sistema (OpenGL, directX, .NET..)
+-   Bibliotecas, APIs y otros componentes del sistema (OpenGL, directX, .NET..)
 
 ### Software de programación y desarrollo
 
@@ -186,6 +186,7 @@ Transición hacia servicios basados en la nube para mayor accesibilidad y colabo
 **Desarrollo Ágil**
 
 Adopción de metodologías ágiles para una entrega más rápida y flexible del software.
+
 
 ## Licencias de software
 
