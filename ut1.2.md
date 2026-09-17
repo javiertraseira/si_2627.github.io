@@ -48,9 +48,7 @@ Existen diferentes tipos de lenguajes de programación:
 El software se suele clasificar de forma típica en tres tipos según su función como veremos a continuación:
 
 - Software del sistema
-
 - Software de programación y desarrollo
-
 - Software de aplicación
 
 ### Software del sistema (base)
@@ -285,16 +283,16 @@ Tipos de licencias de software propietario:
 
 Podemos clasificar las licencias de software en diferentes tipos, ya que no todas cumplen con un grado de libertad absoluto que da la licencia GNU estándar:
 
-- **Licencias libres (copyleft fuerte o recíprocas estrictas)** se basan en las cuatro libertades vistas anteriormente. Todo lo que derive de ellas debe mantenerse con la misma licencia. Garantizan que el software siempre sea libre.
+- **Licencias con copyleft fuerte (o recíprocas estrictas)**: sse basan en las cuatro libertades vistas anteriormente. Todo lo que derive de ellas debe mantenerse con la misma licencia. Garantizan que el software siempre sea libre.
 
-- **Licencias semi-libres (copyleft débil o recíprocas flexibles)**: permiten mezclar partes libres con propietarias, siempre que las piezas originales se mantengan libres. Fomentan la adopción de librerías en entornos comerciales.
+- **Licencias con copyleft débil (o recíprocas flexibles)**: permiten mezclar partes libres con propietarias, siempre que las piezas originales se mantengan libres. Fomentan la adopción de librerías en entornos comerciales.
 
 - **Licencias permisivas (no recíprocas)**: se puede hacer casi de todo, incluso reutilizar el código en software propietario, siempre reconociendo la autoría. 
 
 > El copyleft obliga a que las obras derivadas mantengan la misma licencia.
 
 
-### Licencias libres (copyleft fuerte)
+### Licencias libres con copyleft fuerte
 
 - **Licencias GPL (General Public License).** 
 Se la puede considerar como Licencia de software libre con protección heredada. Creada por la Free Software Foundation (FSF), es una de las licencias más usadas y estrictas en cuanto a copyleft:
@@ -314,7 +312,7 @@ Se la puede considerar como Licencia de software libre con protección heredada.
 
 > El software comercial se basa en que para usarse hay que realizar un pago. Puede existir software libre y propietario de este tipo. 
 
-### Licencias semilibres (copyleft débil)
+### Licencias con copyleft débil
 
 - **Licencia MPL (Mozilla Public License)**
 
@@ -334,7 +332,6 @@ Se la puede considerar como Licencia de software libre con protección heredada.
 
    ![](media/0a2b39a8862349d551c17c4b1a83fc11.png)
 
-
 -  **Licencia MIT** Muy permisiva, permite a los usuarios usar, modificar y redistribuir el software, incluso en productos propietarios, siempre y cuando se mantenga el aviso de copyright original.
 
 -  **Licencia Apache** Ofrece más protección legal que la licencia MIT o BSD, incluyendo cláusulas sobre patentes. Permite la modificación y redistribución del software bajo otras licencias, siempre que se mantengan los avisos de derechos de autor y licencias.
@@ -344,17 +341,19 @@ Se la puede considerar como Licencia de software libre con protección heredada.
 ### Licencias software libre vs open source
 
 **Software Libre (FSF – Free Software Foundation)**
-- Se centra en la defensa de las **4 libertades**.
-- Muchas licencias libres (como la **GPL**) imponen copyleft fuerte; si distribuyes software derivado, estás obligado a hacerlo bajo la misma licencia.
-- Filosofía ética/moral: la obligación no es solo legal, también es un compromiso con la comunidad.
+- Se centra en la defensa de las **4 libertades** del usuario vistas.
+- Algunas licencias de software libre, como la **GPL**, utilizan **copyleft fuerte**; si se distribuye software derivado, este debe mantenerse bajo la misma licencia.
+- Su enfoque tiene un fuerte componente **ético y social**, centrado en garantizar las libertades de los usuarios.
 
 **Open Source (OSI – Open Source Initiative)**
-- Se centra en la **apertura del código**, no en la libertad como principio moral.
-- Incluye tanto licencias con **copyleft fuerte** (GPL) como licencias **permisivas** (MIT, BSD, Apache).
+- Se centra principalmente en un modelo de desarrollo abierto, basado en el **acceso al código fuente, su modificación y redistribución**.
+- Incluye licencias con **copyleft fuerte** (GPL) y licencias **permisivas** (MIT, BSD).
 - Dependiendo de la licencia elegida, las obligaciones cambian:
-    - Con copyleft fuerte → mismas obligaciones que en software libre.
-    - Con licencias permisivas → muy pocas obligaciones, basta con reconocer la autoría.
+    - Con copyleft fuerte → las obras derivadas que se distribuyan deben mantenerse bajo la misma licencia.
+    - Con licencias permisivas → pocas obligaciones, basta con reconocer la autoría.
 
+
+![](media/libre_open.png)
 
 ### Creative Commons
 
