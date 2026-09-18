@@ -402,15 +402,15 @@ El **software comercial** se basa en que para usarse hay que realizar un pago. P
 
 Un programa libre debe estar disponible para uso comercial, desarrollo comercial y distribución comercial. El desarrollo comercial del software libre ha dejado de ser inusual; el software comercial libre es muy importante.
    
-### Otras licencias
+### Otras licencias y modelos
 
 
 | **Software Libre**  | **Software privativo o propietario**  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Software Libre** Uso gratuito (existen excepciones) Se puede modificar Se pueden distribuir los cambios.              | **Software privativo o propietario** Se paga por cada licencia No se puede modificar. |
-| **Dominio público** Software sin licencia. Se permite uso, copia, modificación o redistribución con o sin fines de lucro. |    **Freeware** Uso gratuito No se puede modificar.                                                            |
-|               | **Shareware** Se prueba y luego se paga. No se puede modificar. |
-|               | **Adware** Uso gratuito de software a cambio de una gran cantidad de publicidad.
+| **Dominio público** Software sin licencia. Se permite uso, copia, modificación o redistribución con o sin fines de lucro. |    **Modelo freeware** Uso gratuito No se puede modificar.                                                            |
+|               | **Modelo shareware** Se prueba y luego se paga. No se puede modificar. |
+|               | **Modelo Adware** Uso gratuito de software a cambio de una gran cantidad de publicidad.
  |
 
 ![](media/cuadro_resumen.png)
