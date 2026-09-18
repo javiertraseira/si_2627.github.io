@@ -192,7 +192,7 @@ Para cada uno de los tipos de software vistos anteriormente, es necesario distin
 
 **Software libre**
 
-Es aquel al que se le otorga libertad de uso, copia y distribución a los usuarios. Su código puede ser totalmente abierto o estar sometido a ciertas normas según la licencia asociada concreta a ese programa.
+Es aquel al que se le otorga libertad de uso, copia y distribución a los usuarios. Para poder estudiar y modificar el programa es necesario disponer de acceso a su código fuente. Estas libertades pueden estar sometidas a determinadas condiciones según la licencia utilizada.
 
 **Software propietario**
 
@@ -203,7 +203,7 @@ Es aquel cuyas condiciones de uso, copia y distribución están sometidas a norm
 | No está limitado a los usuarios y garantiza las libertades de usar, modificar, copiar y distribuir software                                                                                                          | Tiene licencias que limitan a los usuarios y que, en algunos casos, son costosas. Estas licencias restringen las libertades de usar, modificar y distribuir software. |
 | Puede intervenir en su desarrollo cualquier persona, empresa u organización, por lo que se generan gran cantidad de ideas innovadoras, y permite la adecuación a los avances tecnológicos.                           |  El desarrollo, la actualización y la programación de este software solo lo realiza la empresa que tiene los derechos.                                                |
 | Los avances, modificaciones y descubrimientos tecnológicos son constantes y se encuentran en Internet de forma gratuita. "La principal meta del software libre es compartir los avances tecnológicos con los demás." |  El futuro del software que adquirió el usuario solo depende de una empresa comercial.                                                                                |
-| Compatible tanto en software como en hardware, no obliga al usuario a cambiar de sistema operativo o equipo.                                                                                                         | Siendo creado con fines de lucro, las actualizaciones o mejoras al software quedan estipuladas bajo contrato.                                        
+                                       
 
 ![licencias](media/soflibrepropietario.png)
 
@@ -215,8 +215,8 @@ Cuando compramos o bajamos de Internet un programa, al instalarlo solemos acepta
 
 ### Software libre (GNU)
 
->   💡 El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
-Se fundamenta en la moral y exige la libertad absoluta del software. 
+El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro. El movimiento del software libre plantea una defensa principalmente ética de las libertades de los usuarios de software.
+
 
 Las **cuatro libertades** del software libre son:
 
@@ -228,17 +228,19 @@ Las **cuatro libertades** del software libre son:
     
 4.  La libertad de mejorar el programa y hacer públicas las mejoras a los demás, de modo que toda la comunidad se beneficie (libertad 3)
 
->   📌 Para proteger estas libertades existe el concepto de **copyleft**: el copyleft garantiza que cualquier modificación o distribución de un programa libre deba mantenerse también como libre, evitando que alguien lo convierta en software propietario.
-
+```note
+Para proteger estas libertades existe el concepto de **copyleft**: el copyleft garantiza que cualquier modificación o distribución de un programa libre deba mantenerse también como libre, evitando que alguien lo convierta en software propietario.
+```
 
 ![](media/libertades_software.png)
 
-
->   📌 El software libre no hace referencia a que sea gratuito (de hecho, no siempre lo es).
+```note
+El software libre no hace referencia a que sea gratuito (de hecho, no siempre lo es).
+```
 
 El término libre en software libre se refiere a la libertad del usuario, no al precio del programa. Un software libre puede ser gratuito, pero también puede venderse o tener un coste asociado (por ejemplo, servicios de soporte, formación o distribución). Lo importante es que, sea gratis o de pago, el usuario siempre conserva las cuatro libertades fundamentales: usar, estudiar, modificar y redistribuir el programa.
 
-Aunque se confunden, el **software de código abierto** (open source) y **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto. Ambos permiten acceder al código fuente, pero sus objetivos y filosofías no son iguales como veremos a continuación
+Aunque se confunden, el **software de código abierto** (open source) y **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto. Ambos permiten acceder al código fuente, pero sus objetivos y filosofías no son iguales como veremos a continuación.
 
 
 ### El software de código abierto (Open Source)
