@@ -215,7 +215,7 @@ Cuando compramos o bajamos de Internet un programa, al instalarlo solemos acepta
 
 ### Software libre (GNU)
 
-El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro. El movimiento del software libre plantea una defensa principalmente ética de las libertades de los usuarios de software.
+El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro. El movimiento del software libre plantea una defensa principalmente ética de las libertades de los usuarios de software.
 
 
 Las **cuatro libertades** del software libre son:
@@ -243,13 +243,17 @@ El término libre en software libre se refiere a la libertad del usuario, no al 
 Aunque se confunden, el **software de código abierto** (open source) y **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto. Ambos permiten acceder al código fuente, pero sus objetivos y filosofías no son iguales como veremos a continuación.
 
 
-### El software de código abierto (Open Source)
+### Software de código abierto (Open Source)
 
-El software de código abierto trata de suavizar las condiciones del *GNU* para facilitar su uso por las compañías y fomentar la colaboración entre empresas y comunidades.
+El **software de código abierto** se basa en un modelo de desarrollo que permite acceder al código fuente, modificarlo y redistribuirlo según las condiciones establecidas por su licencia.
 
->   💡 El término **Open Source** (código abierto) surge a finales de los años 90 con la creación de la Open Source Initiative (**OSI**).
+El término **open source** (código abierto) surge a finales de los años 90 con la creación de la **Open Source Initiative (OSI)** y la **LinuxFoundation** en los 2000.
 
-Es un movimiento más ‘**pragmático**’, que se enfoca más en los beneficios prácticos como acceso al código fuente que en aspectos éticos o de libertad que son tan relevantes en el Software Libre.
+Frente al movimiento del **software libre**, que pone especial énfasis en las libertades del usuario y en aspectos éticos, el movimiento Open Source adopta un enfoque más pragmático, centrado en las ventajas prácticas del desarrollo abierto, como la colaboración, la reutilización del código, la transparencia y mejora colectiva.
+
+```note
+Software libre y open source no son categorías opuestas. Muchas licencias, como GPL, MIT, BSD o Apache, pueden considerarse al mismo tiempo licencias de software libre y de código abierto.
+```
 
 ![](media/081baa59bfc621dadfc7baa92280bc27.jpg)
 
