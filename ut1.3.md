@@ -699,12 +699,12 @@ En informática se utiliza habitualmente para medir de cantidades de informació
 
 
 
-## Representación interna
+## Little and Big Endian
 
 >   📌 **Little Endian** y **Big Endian** se refieren al orden que las máquinas asignan a los bytes que representan valores numéricos, cadenas o instrucciones dentro de sus registros internos.
 
--   **Big Endian** asigna los bytes menos significativos en el extremo más alto. Este formato que puede parecer una forma más "natural" de escritura es utilizado por procesadores usados en máquinas Apple o ARM entre otras.
--   **Little Endian** asigna los bytes menos significativos en el extremo más bajo de la memoria. Este formato es adoptado por la mayoría de procesadores **Intel**, **AMD** o ARM.
+-   **Big Endian** el byte **más significativo** se almacena en la **dirección más baja**. Este formato que puede parecer una forma más "natural" de escritura es utilizado por procesadores usados en máquinas Apple o ARM entre otras.
+-   **Little Endian** el byte **menos significativo** se almacena en la dirección de memoria más baja. Este formato es adoptado por la mayoría de procesadores **Intel**, **AMD** o ARM.
   ![](media/big_little_endian.jpg)
 
 
