@@ -709,8 +709,6 @@ En informática se utiliza habitualmente para medir de cantidades de informació
 
 
 
-
-
 ## Conversión analógica-digital
 
 Un ordenador o cualquier sistema de control basado en un microprocesador no puede interpretar señales analógicas, ya que sólo utiliza señales digitales como bien sabemos. Es necesario traducir, o transformar en señales binarias, lo que se denomina <u>proceso de digitalización o conversión</u> de señales analógicas a digitales.
@@ -721,22 +719,42 @@ La conversión **analógica-digital** (CAD) o **digitalización** consiste en la
 
 <img src="media/digitalizacion.jpg" style="zoom:80%;" />
 
-- Ventajas de la **digitalización**:
+### Ventajas de la **digitalización**:
 
-1.  Cuando una señal digital es atenuada o experimenta perturbaciones leves, puede ser reconstruida y amplificada mediante sistemas de regeneración de señales.
+- **Reconstrucción y amplificación** Cuando una señal digital es atenuada o experimenta perturbaciones leves, puede ser reconstruida y amplificada mediante sistemas de regeneración de señales.
 
-2.  Cuenta con sistemas de detección y corrección de errores, que se utilizan cuando la señal llega al receptor; entonces comprueban (uso de redundancia) la señal, primero para detectar algún error, y, algunos sistemas, pueden luego corregir alguno o todos los errores detectados previamente.
+- **Detección y corrección de errores** Cuenta con sistemas de detección y corrección de errores, que se utilizan cuando la señal llega al receptor; entonces comprueban (uso de redundancia) la señal, primero para detectar algún error, y, algunos sistemas, pueden luego corregir alguno o todos los errores detectados previamente.
     
-3.  Facilidad para el procesamiento de la señal. Cualquier operación es fácilmente realizable a través de cualquier software de edición o procesamiento de señal.
-    
-4.  La señal digital permite la multigeneración infinita sin pérdidas de calidad.
-    
-5.  Es posible aplicar técnicas de compresión de datos sin pérdidas o técnicas de compresión con pérdidas basados en la codificación perceptual mucho más eficientes que con señales analógicas.
+- **Facilidad de procesamiento** Facilidad para el procesamiento de la señal. Cualquier operación es fácilmente realizable a través de cualquier software de edición o procesamiento de señal.
+        
+- **Compresión eficiente** Es posible aplicar técnicas de compresión de datos sin pérdidas o técnicas de compresión con pérdidas basados en la codificación perceptual mucho más eficientes que con señales analógicas.
+
+### Profundidad del color
 
 ```note
-Una imagen en **mapa de bits**, es una estructura o fichero de datos digital que representa una matriz de píxeles o puntos de color, que se puede visualizar en un monitor o cualquier otro dispositivo de representación.
+Una imagen en mapa de bits es una estructura o fichero de datos digital que representa una matriz de píxeles o puntos de color, que se puede visualizar en un monitor o cualquier otro dispositivo de representación
 ```
+Por ejemplo, una imagen con una resolución de 1920 × 1080 píxeles contiene: *1920 × 1080 = 2.073.600 píxeles*
 
 A las imágenes en mapa de bits se las suele definir por su altura y anchura (en píxeles) y por su **profundidad de color** (en bits por píxel), que determina el número de colores distintos que se pueden almacenar en cada punto individual, y por lo tanto la calidad del color de la imagen.
 
+En una pantalla, los colores se forman combinando tres componentes o canales:
+
+-🔴 R → Rojo
+-🟢 G → Verde
+-🔵 B → Azul
+
+Con 8 bits por canal:
+2⁸ = 256 niveles por canal
+
+Un píxel RGB necesita:
+8 + 8 + 8 = 24 bits/píxel
+
+Y permite:
+256 × 256 × 256 = 16.777.216 combinaciones de color
+
+> ⚠️ No confundir bits por canal con bits por píxel.
+
 ![](media/profundidad_color.png)
+
+![](media/profundidad_color1.png)
