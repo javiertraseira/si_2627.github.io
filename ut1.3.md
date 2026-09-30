@@ -701,13 +701,31 @@ En informática se utiliza habitualmente para medir de cantidades de informació
 
 ## Little and Big Endian
 
->   📌 **Little Endian** y **Big Endian** se refieren al orden que las máquinas asignan a los bytes que representan valores numéricos, cadenas o instrucciones dentro de sus registros internos.
+```note
+Little endian y Big endian indican en qué orden se almacenan en memoria los bytes de un dato que ocupa más de un byte.
+```
 
+Por ejemplo, supongamos este número de 32 bits = 4 bytes:
+*0x12345678*
+
+Podemos separarlo en cuatro bytes:
+12 | 34 | 56 | 78
+
+Aquí:
+- 12 es el byte más significativo (MSB).
+- 78 es el byte menos significativo (LSB).
+
+La diferencia está en qué byte se guarda primero, es decir, en la dirección de memoria más baja.
+
+Por tanto:
 -   **Big Endian** el byte **más significativo** se almacena en la **dirección más baja**. Este formato que puede parecer una forma más "natural" de escritura es utilizado por procesadores usados en máquinas Apple o ARM entre otras.
 -   **Little Endian** el byte **menos significativo** se almacena en la dirección de memoria más baja. Este formato es adoptado por la mayoría de procesadores **Intel**, **AMD** o ARM.
+
   ![](media/big_little_endian.jpg)
 
-
+  Estudiaremos más adelante la organización y las posiciones de la memoria de un ordenador, pero basta este ejemplo para visualizarlo; en Big endian los bytes se almacenan en memoria en el mismo orden en que leeríamos el número mientras que en Little endian los bytes se almacenarían en orden inverso:
+  
+  ![](media/big_little_endian1.PNG)
 
 ## Conversión analógica-digital
 
