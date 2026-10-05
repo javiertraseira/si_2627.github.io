@@ -565,7 +565,7 @@ Aunque la seguridad informática se abordará con mayor profundidad en unidades 
 
 - Utilizar **contraseñas seguras**, largas y difíciles de adivinar. No se deben reutilizar y deben cumplir la política de seguridad de la organización.
 - Bloquear la sesión al dejar el puesto desatendido.
-- Mantener los equipos con el software actualizado y con antivirus.
+- Mantener los equipos con el software actualizado.
 - No descargar ni instalar aplicaciones de fuentes no confiables.
 - Realizar copias de seguridad periódicas de los trabajos o datos del aula.
 
