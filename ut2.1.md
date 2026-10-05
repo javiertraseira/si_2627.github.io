@@ -217,7 +217,7 @@ Vamos a trabajar con los siguientes registros de la CPU que ya hemos nombrado:
 2. Una vez conocido el código de operación la UC establecerá las conexiones de los circuitos de la ALU que deberán intervenir en la operación.
 3. La UC extraerá de la memoria principal los datos necesarios para ejecutar la instrucción; ordena la lectura de la celda cuya dirección se encuentra en el **Registro de Instrucción (RI)**.
 4. La UC ordenará a la ALU que efectúe las operaciones necesarias. El resultado de la operación se almacenará en el **Registro Acumulador**.
-5. Finalmente se incrementará en 1 el registro del **Contador de Programa**.
+5. Finalmente se incrementará en 1 el registro del **Contador de Programa** o se **actualiza** apuntando a la siguiente instrucción.
 
 ## La memoria	
 
@@ -384,6 +384,8 @@ Sus funciones son:
 ```note
 Los **periféricos** son dispositivos hardware con los cuales el usuario puede interactuar con el ordenador (teclado, ratón, monitor), almacenar o leer datos y/o programas (dispositivos de almacenamiento o memorias auxiliares),imprimir, etc
 ```
+
+![](media/perifericos_img.png)
 
 Los periféricos se conectan con el ordenador, la CPU y sus componentes, a través de los denominados **puertos** o conectores externos. Esta gestión la lleva a cabo a través de la **unidad de entrada/salida** vista anteriormente.
 
