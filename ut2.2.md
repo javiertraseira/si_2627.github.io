@@ -166,6 +166,31 @@ Recordar los registros de la CPU con los que vamos a trabajar vistos previamente
 
 ## Pila de memoria
 
+En la arquitectura de Von Neumann, la memoria principal (RAM) almacena tanto las **instrucciones del programa** como los **datos** que necesita para ejecutarse.
+
+Cuando se ejecuta un programa, el sistema operativo le proporciona un espacio de memoria virtual que suele organizarse en diferentes zonas o segmentos lógicos.
+
+| Zona de memoria | Contenido |
+|---|---|
+| **Código (Text)** | Instrucciones ejecutables del programa. |
+| **Datos (Data/BSS)** | Variables globales y estáticas. |
+| **Montón (Heap)** | Memoria reservada dinámicamente durante la ejecución. |
+| **Pila (Stack)** | Información temporal asociada a las llamadas a funciones. |
+
+### Pila (stack)
+
+La pila (stack) es una zona de memoria utilizada para almacenar información temporal necesaria durante la ejecución de un programa, especialmente cuando se realizan llamadas a funciones o subrutinas.
+
+Su funcionamiento sigue el principio **LIFO** (Last In, First Out): El último elemento que entra en la pila es el primero que sale.
+
+Podemos imaginarla como una pila de platos: colocamos un plato encima de otro y, cuando necesitamos retirar uno, comenzamos por el último que hemos colocado.
+
+Operaciones fundamentales:
+- PUSH (apilar): introduce un elemento en lapila.
+- POP (desapilar): extrae un elemento de laparte superior de la pila.
+
+
+
 En el modelo de Von Neumann, la memoria principal contiene todo el programa y sus datos.
 
 Sin embargo, dentro de esa memoria, el sistema operativo y el compilador organizan el espacio en zonas o segmentos lógicos, que ayudan a la CPU a gestionar el código, las variables y las funciones.
