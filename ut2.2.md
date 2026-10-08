@@ -177,6 +177,8 @@ Cuando se ejecuta un programa, el sistema operativo le proporciona un espacio de
 | **Montón (Heap)** | Memoria reservada dinámicamente durante la ejecución. |
 | **Pila (Stack)** | Información temporal asociada a las llamadas a funciones. |
 
+![](media/pila_memoria.png)
+
 ### Pila (stack)
 
 La pila (stack) es una zona de memoria utilizada para almacenar información temporal necesaria durante la ejecución de un programa, especialmente cuando se realizan llamadas a funciones o subrutinas.
@@ -186,18 +188,24 @@ Su funcionamiento sigue el principio **LIFO** (Last In, First Out): El último e
 Podemos imaginarla como una pila de platos: colocamos un plato encima de otro y, cuando necesitamos retirar uno, comenzamos por el último que hemos colocado.
 
 Operaciones fundamentales:
-- PUSH (apilar): introduce un elemento en lapila.
-- POP (desapilar): extrae un elemento de laparte superior de la pila.
+- PUSH (apilar): introduce un elemento en la pila.
+- POP (desapilar): extrae un elemento de la parte superior de la pila.
 
+![](media/stack_memoria.png)
 
+### El registro SP (Stack Pointer)
 
-En el modelo de Von Neumann, la memoria principal contiene todo el programa y sus datos.
+Para gestionar la pila, la CPU utiliza un registro especial denominado **SP** (Stack Pointer) o puntero de pila.
 
-Sin embargo, dentro de esa memoria, el sistema operativo y el compilador organizan el espacio en zonas o segmentos lógicos, que ayudan a la CPU a gestionar el código, las variables y las funciones.
+Este registro contiene una dirección de memoria asociada al extremo activo de la pila.
 
-La pila es una zona de memoria gestionada por la CPU a través de un registro especial llamado SP (Stack Pointer).
+Cuando se realizan operaciones PUSH o POP, el SP se actualiza para reflejar la nueva posición.
 
-Su misión es guardar información temporal durante la ejecución del programa, especialmente:
+El sentido en el que se modifica depende de la arquitectura. En muchos sistemas actuales, la pila crece hacia direcciones de memoria inferiores.
+
+### Ejemplo
+
+La misión de la pila es guardar información temporal durante la ejecución del programa, especialmente:
 
 - Variables locales de funciones.
 - Parámetros pasados a funciones.
