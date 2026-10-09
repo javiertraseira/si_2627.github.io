@@ -172,10 +172,11 @@ Cuando se ejecuta un programa, el sistema operativo le proporciona un espacio de
 
 | Zona de memoria | Contenido |
 |---|---|
-| **Código (Text)** | Instrucciones ejecutables del programa. |
-| **Datos (Data/BSS)** | Variables globales y estáticas. |
-| **Montón (Heap)** | Memoria reservada dinámicamente durante la ejecución. |
 | **Pila (Stack)** | Información temporal asociada a las llamadas a funciones. |
+| **Montón (Heap)** | Memoria reservada dinámicamente durante la ejecución. |
+| **Datos (Data/BSS)** | Variables globales y estáticas. |
+| **Código (Text)** | Instrucciones ejecutables del programa. |
+
 
 ![](media/pila_memoria.png)
 
@@ -193,9 +194,7 @@ Operaciones fundamentales:
 
 ![](media/stack_memoria.png)
 
-### El registro SP (Stack Pointer)
-
-Para gestionar la pila, la CPU utiliza un registro especial denominado **SP** (Stack Pointer) o puntero de pila.
+Para gestionar la pila, la CPU utiliza un **registro** especial denominado **SP** (Stack Pointer) o puntero de pila.
 
 Este registro contiene una dirección de memoria asociada al extremo activo de la pila.
 
