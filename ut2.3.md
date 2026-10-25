@@ -79,12 +79,13 @@ Una combinación de cuatro diodos, dispuestos en la forma adecuada, permite crea
 
 ### Fabricantes componentes
 
-En la actualidad encontrar cuatro grandes potencias que se dedican a la fabricación de chips electrónicos y los problemas de la cadena de suministros que conlleva su escasez:
+En la actualidad existen varias potencias que se dedican a la fabricación de chips electrónicos:
 
-- **TSMC**: esta empresa de microtecnología es uno de los principales fabricantes de chips del mundo (30%). Fabrica los procesadores de marcas como AMD, Apple, Qualcomm, Nvidia, Huawei o Texas Instrument. Es un fabricante clave en los transistores de 3 nm.
--  **Intel**: el gigante azul, el cual inventó la arquitectura x86, también tiene su propias fábricas de procesadores y actualmente planea nuevas en Europa. Responsable del 10% de la producción mundial.
--  **Samsung**: la empresa coreana también tiene una fábrica propia de silicios, por lo que está en los mismos términos que Intel. Puede crear sus propios procesadores para smartphones y otros dispositivos.
--  **Global Foundries**: otro de los fabricantes pero no puntero, de obleas de     silicio con más clientes, entre los que también están AMD, Qualcomm y otros. En este caso fabrica transistores de 12 y 14 nm entre otros.
+- **TSMC**: empresa taiwanesa y principal fabricante de chips por encargo del mundo. Fabrica chips diseñados por empresas como AMD, Apple, Qualcomm y NVIDIA. Destaca en procesos avanzados de fabricación y comenzó la producción en volumen de su tecnología de 2 nm a finales de 2025
+-  **Intel**: el gigante azul, el cual inventó la arquitectura x86, también tiene su propias fábricas de procesadores y actualmente planea nuevas en Europa.  
+-  **Samsung**: la empresa surcoreana también tiene su propia fábrica de procesadores y destaca especialmente en fabricación de memorias. También crea sus propios procesadores para smartphones y otros dispositivos. 
+-  **SMIC**:  empresa china fundada en 2000 y con sede en Shanghái y que es uno de los principales fabricantes del sector.
+-  **Global Foundries**: otro de los fabricantes pero no puntero, de obleas de silicio con más clientes, entre los que también están AMD, Qualcomm y otros. En este caso fabrica transistores de 12 y 14 nm entre otros.
 
     ![](media/ec54f6d4a379670c481e2c9d6432b5af.png)
 
