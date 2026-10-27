@@ -6,11 +6,11 @@ Existen dos tipos de circuitos digitales, de los cuales veremos ejemplos utiliza
 
 - **Circuitos Combinacionales**: Los sistemas combinacionales están formados por un conjunto de compuertas interconectadas cuya salida, en un momento dado, esta únicamente en función de la entrada, en ese mismo instante.
 
-![](media/b5e0428e08934aad66c2c890ddb36725.jpeg)
+![](media/b5e0428e08934aad66c2c890ddb36725.png)
 
 - **Circuitos Secuenciales**: Son circuitos capaces de tener salidas no sólo en función de las entradas actuales, sino también de entradas o salidas anteriores, es decir son sistemas que tienen **memoria** de estados anteriores.  
 
-    ![](media/54b1731ec1847775e534157ff786ac3e.jpeg)
+![](media/54b1731ec1847775e534157ff786ac3e.png)
 
 ## Circuitos combinacionales
 
@@ -38,7 +38,7 @@ Así pues, el siguiente circuito:
 
 Es un circuito combinacional con *"m"* entradas y *"n"* salidas. Las salidas que se obtengan en un determinado instante van a depender de las entradas en ese preciso instante. Estos circuitos se caracterizan porque no almacenan información.
 
-![](media/17aa7d7dbbe816e728c8096172a147b7.jpeg)
+![](media/17aa7d7dbbe816e728c8096172a147b7.png)
 
 > Ejemplo de circuito **no combinacional**, por tener un bucle de realimentación.
 
