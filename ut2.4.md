@@ -167,7 +167,7 @@ Un decodificador muy común es el de siete segmentos. Este circuito combinaciona
 
 ![](media/698eaf1db17d60af1b933df3450073fb.png)
 
-![](media/9470da52fc1d50fc5de2b89f6ad36e91.jpeg)
+![](media/9470da52fc1d50fc5de2b89f6ad36e91.png)
 
 ## Circuitos secuenciales
 
