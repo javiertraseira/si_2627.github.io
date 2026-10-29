@@ -264,7 +264,7 @@ La **placa base** (motherboard) es el elemento principal de cualquier dispositiv
 
 El modelo de placa base a su vez determinará los componentes que podremos instalar y sus posibilidades de ampliación o reemplazo.
 
-La placa base, además incluye un chip con el firmware llamado BIOS (UEFI), que permite configurar funcionalidades básicas, de arranque y carga del SO.
+La placa base, además incluye un chip con el firmware llamado BIOS/UEFI, que permite configurar funcionalidades básicas, de arranque y carga del SO.
 
 ![](media/da0892c2022e0427caea0693d99b0212.jpeg)
 
@@ -274,10 +274,10 @@ Una placa base tiene al menos los siguientes componentes:
 -   Zócalo de CPU
 -   Ranuras de memoria RAM.
 -   Ranuras de expansión y de la tarjeta gráfica
--   Chipsets.
+-   Chipset.
 -   Buses y puertos de E/S.
 
-### Formato forma
+### Factor de forma
 
 Familias de **factores forma** de placas base para ordenadores personales, portátiles o servidores:
 
@@ -293,9 +293,9 @@ Familias de **factores forma** de placas base para ordenadores personales, port�
 
 ### Esquemas
 
-![](media/a63e3434f732e828ae075880b04cb145.jpeg)
-
 ![](media/f91ae738da9cca464c1ec6b9288f22d6.png)
+
+![](media/a63e3434f732e828ae075880b04cb145.png)
 
 
 ![](media/be89a1d1a431851614b888bfe4985971.jpeg)
@@ -359,7 +359,7 @@ Las ranuras de almacenamiento en una placa base son fundamentales para la conect
 
 Las dos ranuras almacenamiento más utilizadas son:
 
--   **SATA**: Sirven para conectar mediante un cable de color rojo dispositivos de almacenamiento tradicionales, como discos duros (HDD) o unidades de estado sólido (SSD).
+-   **SATA**: Sirven para conectar mediante un cable (que suele ser de color rojo o amarillo) dispositivos de almacenamiento tradicionales, como discos duros (HDD) o unidades de estado sólido (SSD).
 
     ![SATA](media/3cfd538ee62eb5501fb33b9650df4967.jpeg)
 
@@ -371,7 +371,7 @@ Las dos ranuras almacenamiento más utilizadas son:
 
 Una ranura o **slot de expansión** es un elemento de la placa base de un ordenador que permite conectar a ésta una tarjeta adaptadora adicional o de expansión.
 
-A lo largo de la historia de la computación han existido una enorme cantidad de ranuras de expansión, pero muchas de ellas han quedado en desuso y, en la actualidad, hay dos slots que predominan en las placas base: el más antiguo pero vigente se llama **PCI** y su evolución, el **PCI Express**.
+A lo largo de la historia de la computación han existido una enorme cantidad de ranuras de expansión, pero muchas de ellas han quedado en desuso y, en la actualidad, hay dos slots que predominan en las placas base: el más antiguo se llamaba PCI y su evolución actual es el **PCI Express**.
 
 ![Ranuras de expansión](media/59e44776c6977d2b46fef633e5e32630.jpeg)
 
