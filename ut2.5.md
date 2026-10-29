@@ -12,11 +12,11 @@
 
     ![](media/3b0aea3120ddaadd8b6d6aab99500e6c.jpeg)
 
-- Los **conectores** o puertos físicos son aperturas en la parte trasera, frontal o lateral del un dispositivo a través en los cuales se puede conectar un dispositivo por medio de un cable. El número y tipos de puertos en un computador determinan los tipos de dispositivos que se pueden conectar.
+- Los **conectores** o puertos físicos son **interfaces físicas** en la parte trasera, frontal o lateral del un dispositivo a través en los cuales se puede conectar un dispositivo por medio de un cable. El número y tipos de puertos en un computador determinan los tipos de dispositivos que se pueden conectar.
 
     ![](media/5d9d859c1c81ee8bb0c299859c5591f4.png)
 
-- La **caja y el chasis** son estructuras metálicas que sirven de soporte para montar y proteger otras partes. Son estructuras rígidas y resistentes, que no se doblan fácilmente. Además de elemento protector sirven como elemento de refrigeración. En servidores se utilizan los **racks**, con medidas estandarizadas por la industria.
+- La **caja y el chasis** son estructuras metálicas que sirven de soporte para montar y proteger otras partes. Son estructuras rígidas y resistentes, que no se doblan fácilmente. Además de elemento protector sirven para facilitar la refrigeración. En servidores se utilizan los **racks**, con medidas estandarizadas por la industria.
 
     ![](media/6c5d55ba61b99e208349ff52d36e976c.png)
 
@@ -38,7 +38,7 @@
 
     ![](media/25714ce8e13ea14d5a35ca1f70657364.jpeg)
 
-- La **tarjeta gráfica**, también conocida como tarjeta de vídeo es la responsable de mostrar texto, imágenes y gráficos en el dispositivo de salida (monitor o pantalla). Muchos procesadores actuales en dispositivos móviles o portátiles ya integran esta función; sin embargo, la mayoría de ordenadores potentes o consolas utilizan tarjetas gráficas para potenciar y mejorar la salida de datos hacia el monitor.
+- La **tarjeta gráfica**, también conocida como tarjeta de vídeo es la responsable de mostrar texto, imágenes y gráficos en el dispositivo de salida (monitor o pantalla) y otras cargas de cálculo paralelo. Muchos procesadores actuales en dispositivos móviles o portátiles ya integran esta función; sin embargo, la mayoría de equipos potentes utilizan tarjetas gráficas para potenciar y mejorar la salida de datos hacia el monitor.
 
     ![](media/213bc28e711aeb3c6e1efddd5b9eb57c.png)
 
