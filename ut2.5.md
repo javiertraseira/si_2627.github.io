@@ -109,7 +109,10 @@ Hay múltiples formatos de fuentes portátiles, dependiendo el tamaño del dispo
 
 ![](media/1d8e0de4e3222b6167b27b91d85d0cda.jpeg)![](media/03ac2f5572460437b4e2c5327d0e37d0.jpeg)![](media/95e953b00a98720b6f496ab280047f6b.jpeg)
 
-### Conectores de la fuente
+### Conectores de la fuente (ATX2 20-24)
+
+El conector **ATX2 de de 20+4 pines** es el conector lleva la **alimentación principal** desde la fuente de alimentación hasta la placa base. Actualmente suele utilizar un conector de **24 pines** (20+4), que suministra distintas tensiones, principalmente +3,3 V, +5 V y +12 V, además de líneas de masa y señales de control.
+
 
 ![](media/b7900f5008a28097643c59592b2b368f.jpeg)
 
@@ -117,9 +120,11 @@ Este conector es el que lleva la alimentación principal desde la fuente a la pl
 
 ### Fuentes de buena calidad
 
-El factor determinante que mide si una fuente es de buena calidad es su **eficiencia**. Una fuente de alimentación con una eficiencia del 80% proporciona el 80 por ciento de su voltaje nominal como potencia efectiva para el sistema, mientras que pierde el otro 20% como calor.
+La **calidad de una fuente de alimentación** no depende únicamente de su potencia. También son importantes su **eficiencia**, la estabilidad de las tensiones que proporciona, sus protecciones eléctricas, el nivel de ruido y la calidad de sus componentes.
 
-**80 PLUS** es una prueba de certificación que verifica la eficiencia real de la fuente de alimentación para un ordenador. Si una empresa opera un gran número de ordenadores o servidores, el uso de fuentes de alimentación con Certificación 80 PLUS puede ahorrar dinero a largo plazo.
+La **eficiencia** indica qué porcentaje de la energía que la fuente toma de la red eléctrica llega realmente a los componentes del equipo. Por ejemplo, una fuente con una eficiencia del 80% que entrega 400W al ordenador necesitará consumir aproximadamente 500W de la red; la energía restante se pierde principalmente en forma de calor.
+
+La certificación 80 PLUS permite identificar fuentes que alcanzan determinados niveles mínimos de eficiencia bajo distintas condiciones de carga:
 
 ![](media/ff514c26f45190f03c78f6ff2f493def.jpeg)
 
@@ -127,13 +132,15 @@ El factor determinante que mide si una fuente es de buena calidad es su **eficie
 ## Sistemas de Alientanción
 
 ```note
-Los Sistema de alimentación ininterrumpida (SAI), son dispositivos que gracias a
-sus baterías, proporcionan alimentación a los dispositivos que estén conectados a ellos de forma constante, incluso cuando se corta el suministro eléctrico.
+Un Sistema de Alimentación Ininterrumpida (SAI) es un dispositivo que proporciona alimentación eléctrica temporal a los equipos conectados cuando se produce un corte o una anomalía en el suministro eléctrico.
 ```
 
-Otra función importante de los SAI es la de **regular la señal eléctrica** que llega a nuestro equipo, de forma que lo haga de una forma constante y sin picos y bajos de intensidad, para así preservar la fuente de alimentación y otros componentes como la placa base.
+Para ello utiliza **baterías internas** y circuitos electrónicos capaces de convertir y gestionar la energía necesaria para mantener los equipos funcionando durante un tiempo limitado.
 
-Los SAI dan energía eléctrica a equipos críticos, como pueden ser aparatos médicos, industriales o informáticos que, como se ha mencionado, requieren tener siempre alimentación y que ésta sea de calidad, debido a la necesidad de estar en todo momento operativos y sin fallos (picos o caídas de tensión).
+Además de proteger frente a cortes de corriente, muchos SAI pueden proteger frente a sobretensiones, caídas de tensión, picos, microcortes y otras alteraciones de la red eléctrica. El nivel de protección depende del **tipo de SAI** utilizado.
+
+Los SAI se emplean especialmente en equipos donde una interrupción inesperada puede provocar pérdida de información, daños o interrupción de servicios, como ordenadores, servidores, equipos de comunicaciones, sistemas industriales o determinados equipos médicos.
+
 
 ![](media/73e975ff0ba6f598f3e75ba684f1c90c.jpeg)
 
