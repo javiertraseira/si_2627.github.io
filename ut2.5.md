@@ -68,9 +68,9 @@ Esquema de la **etapa primaria** o **rectificadora** de una fuente de alimentaci
 
 Esquema completo de todas las **fases** de una fuente de alimentación:
 
-![](media/733516b138e501fd520c7a38f11d279f.png)
+![](media/fases_fuente.png)
 
-![](media/dd3f5c4cac5961f3b42ed1d29067b49b.png)
+![](media/esquema_fuente.png)
 
 ### Características
 
