@@ -379,4 +379,4 @@ Su función primordial es la de inicializar los componentes de hardware y lanzar
 
 ### Recorrido de los datos
 
-![](media/a95238acedca1a22626f11087e17234e.jpeg)
+![](media/recorrido_datos.png)
