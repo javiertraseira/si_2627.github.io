@@ -74,10 +74,14 @@ Esquema completo de todas las **fases** de una fuente de alimentación:
 
 ### Características
 
--   Las fuentes de alimentación para dispositivos electrónicos pueden clasificarse básicamente como fuentes de alimentación **lineales** o fuente de alimentación de tipo **conmutadas**.
--   Un punto crítico de estos elementos de alimentación es el de la **potencia** de la fuente de alimentación, medida en watios. Tiene que ser lo suficientemente potente como para suministrar energía a todos los componentes del equipo. En el mercado podremos encontrar fuentes genéricas de unos *300-400W* y fuentes de marca y calidad a partir de *500W* a *850W*.
--   En la actualidad con el uso de tarjetas gráficas y servidores muy exigentes de última generación demandan un alto consumo energético, es conveniente elegir una fuente de alimentación que permita el uso de estos dispositivos sin apuros y/o con redundancia.
--   En el mercado también se da una importancia cada vez mayor al nivel de ruido    que emiten estos dispositivos, y se intenta instalar fuentes silenciosas.
+Las fuentes de alimentación pueden clasificarse básicamente en lineales y conmutadas. En los ordenadores actuales se suelen utilizar **fuentes conmutadas**, ya que son más eficientes, compactas y adecuadas para suministrar las tensiones necesarias por los componentes.
+
+Una de sus características principales es la **potencia**, medida en **vatios** (W). La fuente debe suministrar suficiente energía a todos los componentes, especialmente procesador y gráfica.
+
+Al elegir una fuente conviene calcular el **consumo máximo** estimado del equipo y disponer de cierto margen de potencia. No es recomendable elegirla únicamente por el número de vatios: también deben tenerse en cuenta su eficiencia, estabilidad y protecciones eléctricas.
+
+Otra característica importante es el nivel de **ruido**. Este depende principalmente del sistema de refrigeración de la fuente, de su carga de trabajo y de su eficiencia. 
+
 
 ### Formato ATX
 
