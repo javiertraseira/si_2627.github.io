@@ -157,7 +157,7 @@ Los SAI deben contar con un sistema de conversión entre corriente alterna y cor
 Existen los siguientes tipos de SAI:
 
 - SAI offline (Stand-by)
-- SAI en línea interactivo (inline)	
+- SAI en línea interactivo (line-interactive)	
 - SAI online 
 
 #### SAI offline (Stand-by)
@@ -166,7 +166,7 @@ Los SAI offline son el modelo más simple que podemos encontrar en el mercado, y
 
 ![](media/9c9f492321a31459a87059bf9dbe22a4.jpeg)
 
-#### SAI en línea interactivo (inline)
+#### SAI en línea interactivo (line-interactive)
 
 Son equipos de protección más sofisticados que los standby. Estos SAI protegen también de las infratensiones y sobretensiones prolongadas además de ruidos en la señal. Para hacer esto el equipo cuentan con un **regulador de voltaje**, que hace las veces de filtro para estabilizar la corriente que pasa a través del SAI hacia el equipo. De esta forma **la señal eléctrica se regula y corrige** para eliminar picos peligrosos de la señal.
 
@@ -214,7 +214,7 @@ Una **correcta refrigeración de los componentes** del equipo se antoja muy rele
 
 ### Formato servidor
 
-El formato para servidor está pensando para equipos que procesan mucha carga de información y programas, pensando en la comunicación con los equipos conectados a este. Están preparados para soportar mayores cargas de trabajo. Existen muchos formatos de servidor dependiendo su uso; torre, rack, blade, etc.
+El formato para servidor está pensando para equipos que procesan mucha carga de información y cuyo rol es proporcionar servicios o recursos a otros sistemas, pensando en la comunicación con los equipos conectados a este. Están preparados para soportar mayores cargas de trabajo. Existen muchos formatos de servidor dependiendo su uso; torre, rack, blade, etc.
 
 ![](media/820514a89c56d87ee18971a9ce5d85f2.jpeg)
 
@@ -228,13 +228,16 @@ Un **rack** o armario rack, es un tipo de estructura diseñada especialmente par
 El interior de un armario rack tiene 4 bastidores que forman un armazón de 19 pulgadas de anchura. Esta medida es estándar y universal.
 ```
 
-La parte delantera de los racks es una puerta, habitualmente de cristal o un material transparente, que permite visualizar el contenido del armario sin tener que abrirlo.
-
 ![](media/70182f0df1ef4573e070806fb867c120.jpeg)
+
+Esta medida, equivalente a 482,6 mm, hace referencia al ancho normalizado del frontal de los equipos preparados para instalarse en el rack, no al ancho exterior total del armario.
+
+La parte delantera de los racks es una puerta, habitualmente de cristal o un material transparente para ver su contenido.
 
 Las paredes, puerta y el techo son desmontables para facilitar la instalación de los elementos que se colocarán dentro.
 
-Además, el suelo y el techo pueden tener una abertura para pasar todo el cableado.
+El suelo y el techo pueden tener una abertura para pasar todo el cableado.
+
 
 ```note
 Los bastidores tienen agujeros cada 5 cm, esta distancia se llama unidad U, de modo que la altura de un armario se mide en unidades U. 
