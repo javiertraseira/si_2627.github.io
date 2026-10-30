@@ -309,27 +309,29 @@ Familias de **factores forma** de placas base para ordenadores personales, port�
 Se conoce como chipset al conjunto de chips integrados en la placa que se encargan de controlar y administrar las comunicaciones y los flujos de datos entre el microprocesador y los demás componentes de la placa base. 
 ```
 
-Antiguamente se dividía en **northbridge** y **southbridge,** aunque actualmente va unificado en **un solo chip**.
+Antiguamente se dividía en **northbridge** y **southbridge,** aunque actualmente va **unificado** en **un solo chip**.
 
-![](media/e8fc803a549e3fc0b6a490adaa38e35c.jpeg)
+![](media/e8fc803a549e3fc0b6a490adaa38e35c.png)
 
 > Del tipo de *chipset* dependerá el procesador o memoria que admite la placa, frecuencia del FSB *(Front Side Bus),* adaptador gráfico,etc.
 
-![](media/f5cc22edba95325c5103445a31b73ae6.jpeg)
+![](media/f5cc22edba95325c5103445a31b73ae6.png)
 
 ![](media/dfcde2f85edf706b990961a9addda21e.jpeg)
 
 ### Socket (zócalo) de la CPU
 
-El zócalo, o **socket** en inglés, es un tipo de conector generalmente propietario donde se coloca el microprocesador en la placa base, quedando fijado, sin obligación de soldarse. Funciona como interfaz entre el circuito integrado de la placa base y el microprocesador, además de proporcionarle energía.
+El zócalo, o **socket** en inglés, es un tipo de conector generalmente propietario donde se instala el microprocesador en la placa base, quedando fijado sin necesidad de soldarlo.
 
-Los sockets tanto para fabricantes Intel como para AMD, cuentan con una base que posee ranuras de contacto (donde se insertan los **pines** o contactos de la pastilla del procesador) y un sistema de **anclaje** conocido como guillotina. Los mecanismos de retención del integrado y de conexión dependen de cada tipo de zócalo o placa base específica.
+Funciona como interfaz entre el circuito integrado de la placa base y el microprocesador, además de proporcionarle energía. 
+
+Los sockets tanto para fabricantes Intel como para AMD, cuentan con una base que posee ranuras de contacto (donde se insertan los pines o contactos de la pastilla del procesador) y un sistema de anclaje conocido como guillotina. Los mecanismos de retención del integrado y de conexión dependen de cada tipo de zócalo que pueden ser PGA, LGA o BGA.
 
 ![](media/e272ccac0877ea243978566937e67ca2.jpeg)
 
-> Las placas con sockets para procesadores Intel son incompatibles con los que poseen sockets para AMD, y viceversa.
+> ⚠️ Las placas con sockets para procesadores Intel son incompatibles con los que poseen sockets para AMD, y viceversa.
 
-En el caso de muchos portátiles y los teléfonos móviles tanto la memoria como dichos procesadores están directamente **soldados** a la placa base.
+En muchos portátiles, teléfonos y otros dispositivos compactos, el procesador está directamente **soldado** a la placa base, por lo que no puede sustituirse.
 
 ### Ranura de video 
 
