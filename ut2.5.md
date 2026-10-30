@@ -333,19 +333,21 @@ En el caso de muchos portátiles y los teléfonos móviles tanto la memoria como
 
 ### Ranura de video 
 
-El **dispositivo de video** es otro de los cinco componentes críticos del ordenador. Algunos microprocesadores incluyen un procesador gráfico en el encapsulado que permite al sistema la colaboración estrecha entre este procesador y el microprocesador principal. Al estar en el mismo encapsulado, la información entre uno y otro fluye de forma rápida y eficiente. Esto es crítico en dispositivos móviles o smartphones, los cuales no disponen de tarjetas gráficas adicionales.
+El procesamiento gráfico puede realizarse mediante una GPU integrada en el propio procesador o mediante una tarjeta gráfica dedicada.
+
+Las GPU integradas comparten parte de los recursos del sistema y son habituales en equipos donde se busca reducir consumo, espacio y coste.
 
 ![](media/bc258c711f551d780e3a96edefdf6e2e.jpeg)
 
-En equipos que requieren una gráfica potente existe una ranura de video cuya misión es conectar a altísima velocidad el microprocesador con la **tarjeta gráfica** externa utilizada.
+Cuando se necesita un mayor rendimiento gráfico, puede instalarse una tarjeta gráfica dedicada en una ranura **PCI Express (PCIe)** de la placa base, normalmente de formato x16.
 
-El puerto **PCI-Express** la ranura de video utilizada para la interconexión de la tarjeta de vídeo con la placa base.
+**PCI Express** es una interfaz de expansión de alta velocidad utilizada no solo para tarjetas gráficas, sino también para otros dispositivos como tarjetas de red, controladoras o capturadoras.
 
 ![](media/b80513c393def004d86815a8402699fc.jpeg)
 
 ### Ranuras DIMM de memoria
 
-La memoria RAM es otro de los dispositivos críticos de cualquier equipo informático. Las ranuras o zócalos donde se insertan los módulos de memorias RAM se denominan **ranuras DIMM**. Existen diversos zócalos de memoria dependiendo de su tecnología y formato forma.  
+La memoria RAM es otro de los dispositivos críticos de cualquier equipo informático. Las ranuras o zócalos donde se insertan los módulos de memorias RAM se denominan **ranuras DIMM**. Existen diversos zócalos de memoria dependiendo de su tecnología y formato forma. Estas ranuras están diseñadas para una determinada generación de memoria, como DDR3, DDR4 o DDR5.
 
 El **dual channel** es una tecnología para memorias aplicada en las computadoras u ordenadores personales, la cual permite el incremento del rendimiento gracias al acceso simultáneo a dos módulos distintos de memoria.
 
@@ -359,13 +361,15 @@ Las ranuras de almacenamiento en una placa base son fundamentales para la conect
 
 Las dos ranuras almacenamiento más utilizadas son:
 
--   **SATA**: Sirven para conectar mediante un cable (que suele ser de color rojo o amarillo) dispositivos de almacenamiento tradicionales, como discos duros (HDD) o unidades de estado sólido (SSD).
+-   **SATA**: interfaz utilizada para conectar discos duros, unidades SSD SATA y unidades ópticas mediante un cable de datos (que suele ser de color rojo o amarillo).
 
     ![SATA](media/3cfd538ee62eb5501fb33b9650df4967.jpeg)
 
--   **PCI Express**: Originalmente diseñado para tarjetas gráficas y otros periféricos de alta velocidad, como tarjetas de red, se ha adaptado también para dispositivos de almacenamiento, especialmente con el auge de los SSD NVMe.
+-   **M.2**: formato de conector utilizado principalmente para unidades SSD compactas. Dependiendo de la placa y del dispositivo, una unidad M.2 puede utilizar la interfaz SATA o PCI Express.
 
     ![PCIe](media/087fd13c588493f90210cc9daa84e000.jpeg)
+
+> Los SSD que utilizan PCI Express suelen emplear el protocolo NVMe, diseñado para aprovechar las altas velocidades y la baja latencia de esta interfaz.
 
 ### Ranuras de expansión
 
