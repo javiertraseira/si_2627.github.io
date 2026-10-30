@@ -321,13 +321,15 @@ Antiguamente se dividía en **northbridge** y **southbridge,** aunque actualment
 
 ### Socket (zócalo) de la CPU
 
-El zócalo, o **socket** en inglés, es un tipo de conector generalmente propietario donde se instala el microprocesador en la placa base, quedando fijado sin necesidad de soldarlo.
+El zócalo, o **socket** en inglés, es un tipo de conector generalmente propietario donde se instala el microprocesador en la placa base, quedando fijado sin necesidad de soldarlo.
 
 Funciona como interfaz entre el circuito integrado de la placa base y el microprocesador, además de proporcionarle energía. 
 
+![](media/e272ccac0877ea243978566937e67ca2.jpeg)
+
 Los sockets tanto para fabricantes Intel como para AMD, cuentan con una base que posee ranuras de contacto (donde se insertan los pines o contactos de la pastilla del procesador) y un sistema de anclaje conocido como guillotina. Los mecanismos de retención del integrado y de conexión dependen de cada tipo de zócalo que pueden ser PGA, LGA o BGA.
 
-![](media/e272ccac0877ea243978566937e67ca2.jpeg)
+![](media/tipos_sockets.png)
 
 > ⚠️ Las placas con sockets para procesadores Intel son incompatibles con los que poseen sockets para AMD, y viceversa.
 
