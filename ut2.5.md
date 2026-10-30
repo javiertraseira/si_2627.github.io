@@ -369,7 +369,7 @@ Las dos ranuras almacenamiento más utilizadas son:
 
     ![PCIe](media/087fd13c588493f90210cc9daa84e000.jpeg)
 
-> Los SSD que utilizan PCI Express suelen emplear el protocolo NVMe, diseñado para aprovechar las altas velocidades y la baja latencia de esta interfaz.
+> Los SSD que utilizan PCI Express suelen emplear el protocolo NVMe, diseñado para aprovechar las altas velocidades y la baja latencia de esta interfaz.
 
 ### Ranuras de expansión
 
