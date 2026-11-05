@@ -266,6 +266,7 @@ Hoy en día, incorporan en el mismo chip otros componentes especializados que me
 ```note
 Las siglas de SoC (System on a Chip) se refieren a un sólo chip que integra en su encapsulado varios de los componentes principales necesarios para el funcionamiento de un sistema.
 ```
+El diseño **unificado** de un SoC optimiza la comunicación entre componentes, permite una transferencia de datos más rápida, una menor latencia y una mayor eficiencia energética, lo que conlleva un mejor rendimiento por vatio. 
 
 En el SoC de un microprocesador, especialmente en aquellos de dispositivos como teléfonos móviles, tabletas o consolas, donde se intenta concentrar su contenido, suelen integrar varios de los componentes fundamentales de un ordenador, como la CPU, un procesador gráfico integrado (IGP, diferente y sobre todo menos potentes que las GPU de tarjetas gráficas dedicadas), memoria, puertos de entrada salida, un módem, un DSP o chips dedicados a la seguridad.
 
