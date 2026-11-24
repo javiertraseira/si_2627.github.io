@@ -111,9 +111,7 @@ Hay múltiples formatos de fuentes portátiles, dependiendo el tamaño del dispo
 
 ### Conectores de la fuente (ATX2 20-24)
 
-El conector **ATX de 20+4 pines** es el conector lleva la **alimentación principal** desde la fuente de alimentación hasta la placa base. Actualmente suele utilizar un conector de **24 pines** (20+4), que suministra distintas tensiones, principalmente +3,3 V, +5 V y +12 V, además de líneas de masa y señales de control.
-
-> La placa a su vez su propio conector para la CPU llamado EPS de 4 u 8 pines (4+4)
+El conector **ATX de 20+4 pines** es el conector lleva la **alimentación principal** desde la fuente de alimentación hasta la placa base. Actualmente suele utilizar un conector de **24 pines** (20+4), que suministra distintas tensiones, principalmente +3,3 V, +5 V y +12 V, además de líneas de masa y señales de control. La CPU tiene a su vez su propio conector de corriente llamado **EPS** de 4+4 pines.
 
 ![](media/b7900f5008a28097643c59592b2b368f.jpeg)
 
